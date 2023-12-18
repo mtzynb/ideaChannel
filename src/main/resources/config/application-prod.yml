@@ -1,0 +1,69 @@
+#http server port
+server.port: 8080
+#actuator properties
+management:
+  endpoints.web.exposure.include: '*'
+  server.port: 8085
+
+#saman properties
+saman:
+  base-url: https://kook.sb24.ir
+  login-port: 9000
+  deposit-balance-port: 9007
+  deposit-statement-port: 9004
+  username: toranj_user
+  password: jUh8b
+  channel: toranj_channel
+  secret-key: vcB6aSRWSZ
+
+# middle east properties
+middle-east:
+
+  base-url: https://obsrv.middleeastbank.ir:12427/
+  client-info:
+    - client-name: toranj
+      api-key: 'FS-r22AxpN&0#)HeExtdTnLo#n)wU-nW4IQi&ScyX#ApLT8XkItvq_d@PfO@y$P3my5-_j69P#(N-6p!J)gZDRxKRa5fwq_r3PkdC%s+5J1Enx_wU=SBFp!)UVV)-(g3#u_^Q6Y~hhqV=A2PgUWWju_nRTDmIDUipse9kIzYsv*q5)o*@WvVi+Ll(8esoofYjQ@9#HUUw9rd@!8jiN=I1!y^nIAbNdB$UD-DqNEQQaA!_=%M2BUeC3iYV#Djuum'
+      cif: '0100028468'
+
+    - client-name: afra
+      api-key: 'ZbC=jl_n+Gjk10&8HD!ngyUBjbbbZEduv4Jc6bl1dw34&GRrI+eEG7Wpb1Wr05t+Oq%YQ0FhLTU-ZJk4B&uEM(z96S4l#WZM6~SJhaIy+gyb$p0u-gaFQYjM4sC2@Xs)mLsH+#O*vEP2JR(+Wlug~qnClyp0xOivrBg4-MHD@KH4G66Uzcq_%28aMtP4OxFxBfpk$-~1M8#5+d+z+)$jq-QUfgL05R+lKeNz@GWf#iwyk_0vKV=t^jpx~QPO(r='
+      cif: '0100047033'
+
+    - client-name: takDana
+      api-key: '8W%nKh13-WO0Lhk60N^xAF#D~@DF(7a+KNJG&)ONk-Mog$UfRGedMX15!WUs8ZtFaE@gU5QqT&pc36*%JxwXXz0qQhWmZnh7J($PZ7-yqDv^)zoQ7c7SrgkJ!j9N2O3^luvRGcNgh9JgEVJks+&)DfA211Gy*_LWxtBOZs9r-2y3EW-A7Ck!e3h@dy4yT6naj=rJli+p*8*i0AS75AbGiS_BsnF_sMXO^3!yzRrC~hkIofsVrDlVfyy3Rfmdl3g'
+      cif: '0100051808'
+
+    - client-name: sarv
+      api-key: 'D#*!V7vx&SGRs8m3cmXyWx9!WIl)vnN38o_k=l&=rRUoXeqL7-RxC&SFOrHwMqccCcel3X3uVhpd~$wS^8RQw#vMJNA@bko(*!q+^NUNz_R@e9scUb#kqhr(e=CcgIWZD77C4mY4Q0p1dgDDW(%3LgGv*Vvt1%L1LCJflZ&+W)*(WX#X5u_1yhxWaI%qaes3Uitl-pBwsU_2d$fOn#*I4=YfRK*1Vpf5+@A-1j^x*8O)_V9&v*Nd)8Kt-!LD*Dl'
+      cif: '0100041088'
+
+    - client-name: paydar
+      api-key: '-g=p^YevI1Mg8Iv-bLJwZK17&!vWUp)tFajL&!WfIf##=j#uu-Na)5bV(xch!xO*6dAsc@R0rGp@Pcz5qUIs^tU1S~_et$L+$sINpN91W+6N02zn@3vAHrnlbZhT(7r5zwLGjC=8jI@p9S%sxMYJ3ed%7$d4W%et^$gse5SwHfwzCfGKHE8R7T4(1CxYy2!Ej(1a+#Z^^^J+ZLAt+^%&Jft^%MyHA9!LOyg0gANychP&k&)90*Kyi$yVJs&boNU'
+      cif: '0100042023'
+
+
+# tourism properties
+tourism:
+  service-url: 'https://ibank.tourism-bank.com/WebServices/UserServices.asmx'
+  private-key: '<RSAKeyValue><Modulus>ujhheq9gLvnOCzX3qqkSnRyU5FnUqmjc6F+XhmNIc9PyfnDZh4bYHUhPryVGA+Gu+dQJc54NL76QzmaXd8Q67SjV+T5DwcodRaXVXC5V13Lg1AJBnjsV8JX8KC7cgXnquO8JN5Pj3oYaf0qcUYcJ5yrPuVuusC0vxeZT/JmkgI5cb1esvhCmVNx1S72JTZMWnm3R/2jDPzobgRWx0DZQIj5ssRJXkbmApBHskCXfNoQWBW6RRfeO4u61BUe/luW1hIkHQpxbhcwo8IKcFRsHCC/lfUhBuDfARdsixF39n5Xj6SOYEGZa8RzsKIlPYNFYsS/gGlp0KLCdQb44tc2kyQ==</Modulus><Exponent>AQAB</Exponent><P>xKee1G1dqA2Mi0iPIrsaMr9QYsu1mWQDNKEuWyG7eSkqvOODqAS1v7vXsPc4EjV8AZ4XIbkq7++nryyYW5VQa/BudoPzVXeSsci/wHveAA3j6KV1Cxe/TZ/2jLk1q//FNnVlT5iW5qWgtIuorHlZzMRGZFJ/PUelPyrHd2Z6Fd8=</P><Q>8mqmiTsFMUechieN5ODK/hQbScBCqk1HQFIYRlCbMnJKNNj4WWuNU0zsGpOJo6KP+GzlHN7uqUB06IAXjunK7qDZlTLclIsZuHCPuMaZmU8pMY2Yd2RhM6qsyOxue/yC9tMCkns2EejiEISxp7yEfL0vUFQ5Gw440/8o+aI6ilc=</Q><DP>RqaV2GmmQS8E9DFQQ0EHC35SKfxXtNEKmcjid5kp2kCg+xWeAioXBdg9iHV47onKkGY0l0gIFgV6r+OMpTKCnxTVCr0jGeyIhljCEywtOMXEwJtY7nBMqV2z3SDZGH8eYg9RI4SFij2s+9BE/Bno2jkVtQsybVilFImQ+eOWLu8=</DP><DQ>MLJF4/lMMLsO8VAOy/RwMpv9Y1JQ0f8WGhCjubRFiNu2lmkjcmsNh7dDEo+irZFhVGkjmSobTTqagX4BvX6vekIrkzIVZ22N7CQIavjSMB7byo2EHC+46vUVIoOEKjnuYQDAWoaPtQdQKjtNqMFQ5/HlCEDy+8Fenw95vrPdCJ8=</DQ><InverseQ>DxdOzwFK7hFld1Ac6qcrPV03n1CEmFI6Kd14wRU/GwC5gye6DNt1Kt6uohRIhlkDRfmXVbtbZmjViS85IgHeQBrmclHLh6Nj2QMThaogHlVAvAH6bAthEte5KZSSzSN6lwxH6YWzNkpW80c5GTXkWq48J5qe0dN4b6brN1BaYi0=</InverseQ><D>ORIQZd4blyn9yJfIiGf6iWX6B6W0NGmg0iKBuLDywnTBS5jgQdXEo+zGZwIAXC4tRumB4AofNnOrw2XTo+Piv04VjaZUc66ym+a/5dlZe4b8el0aqRiol6wPtGzwLUok8npnk73iRw9ITZybHa1KDqujL8Z2Wg3vJzJ4qOCZdsAj6cszq4wxWGgtAWFGfiKyWy4UNjXTEbfRjoJYHLzumlRjN1Rfny/BVahzHEjfGNGsmWuyBRESPLSCQ+V8bCcbCpPuw6BrZWk0NMcaM/3cHWezb9NjSlJBfhJS7ci8PakSgF4m3vxPF7LwqkuztCz7iX//0xdqeYkGw1bQjC8vpQ==</D></RSAKeyValue>'
+  user-name: '7932600Service'
+
+
+#faraboom sandbox properties
+faraboom:
+  api-base-url: https://api.sandbox.faraboom.co/v1/
+  login-base-url: https://oauth.sandbox.faraboom.co
+  username: rahandsnd
+  password: Rahandsnd@123
+  token-id: p8VOFaS7w5MB62bUtDQ46uvuuwxG1csIA5AXYIgp3LsXfoR9xcc36nzVrFMeYez9nEty1RAqxuozHzAqCDBc8yKklk
+  app-key: 13774
+  app-secret: dd7yv0owJDvLS15zg7Ah8F9iRwxIbtPjDW4nW6j0xg
+  internet-bank-info:
+    username: ghasabkola
+    password: 717517351
+
+
+#security properties
+spring.security.user:
+  name: channelusername
+  password: channelpassword
