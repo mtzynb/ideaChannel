@@ -5,11 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-/**
- * @author aglitchyy
- * @created 21/02/2022
- */
-
 @ApiModel
 @ToString
 @Getter
