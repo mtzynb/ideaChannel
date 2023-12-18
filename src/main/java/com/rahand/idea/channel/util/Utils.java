@@ -1,10 +1,5 @@
 package com.rahand.idea.channel.util;
 
-/**
- * @author aglitchyy
- * @created 03/11/2021
- */
-
 public class Utils {
 
     public static String[] splitString(String str, String sep) {
