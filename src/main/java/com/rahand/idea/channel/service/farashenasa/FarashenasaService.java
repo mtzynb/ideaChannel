@@ -5,11 +5,6 @@ import com.rahand.idea.channel.dto.farashenasa.image.SignatureRequest;
 import com.rahand.idea.channel.dto.farashenasa.token.TokenRequest;
 import com.rahand.idea.channel.dto.farashenasa.video.VideoRequest;
 
-/**
- * @author aglitchyy
- * @created 21/02/2022
- */
-
 public interface FarashenasaService {
 
     String getToken(TokenRequest request);
